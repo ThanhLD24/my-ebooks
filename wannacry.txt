@@ -1,0 +1,31 @@
+Xin phép ạ khương e đăng bài này chỉ là cho các bạn đề phòng đừng tải những link bậy bạ vì con virus này rất mới
+#WannaCry #GlobalAttack #Update #Urgent
+WannaCry - Vụ nhiễm độc ransome-ware lớn nhất trong lịch sử
+Update: Hiện tại đã có hơn 70 nước đã được báo bị nhiễm độc. Vài giờ trước Microsoft đã tung ra bản patch khẩn cấp cho các dòng dễ bị nhiễm nhất là 2003, XP, Vista và 2008. Con ransome này hỗ trợ 28 thứ tiếng và có thể mã hóa 179 loại file và nạn nhân phải cúng $300-$600 tiền bitcoin để được giải độc. Tổng thiệt hại tới ngày hôm nay: 91 giao dịch, Tổng BTC đã thu 14.07547599BTC, ước tính $23790.36951829. Con Ransome hoạt động chủ yếu ở Bắc Mỹ và Châu Âu.
+Nếu các bạn là IT Manager/SysAdmin/Network Engineer hãy ngay lập tức block 445/137/138/139 trước ngày thứ 2 sắp tới, rủi ro rất lớn sẽ nằm ở các máy tính cá nhân chưa update. Ngoài ra hãy đưa các domain trong diện blacklist vào firewall và log lại để biết được ai đã bị nhiễm con Ransomeware WannaCry này. Hiện tại Mac và Linux bình yên vô sự.
+Phương thức nhiễm độc:
+Một email chứa 1 đường link hoặc 1 file pdf hoặc link dưới dạng ".hta" Vd: "hxxp://graficagbin.com.br/loja/q.hta
+hxxp://www.rentasyventas.com/incluir/rk/imagenes.html?retencion=081525418"
+Nơi phân phối virus: Deep web. Block toàn bộ những miền này: cwwnhwhlz52ma.onion
+gx7ekbenv2riucmf.onion
+xxlvbrloxvriy2c5.onion
+57g7spgrzlojinas.onion
+76jdd2ir2embyv47.onion
+www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com
+Biện pháp phòng tránh:
+_Update window patch MS17-010 [ không còn hiệu quả ]
+_ Update patch khẩn cấp nếu như bạn đang dùng Xp, vista...
+_ Không thực hiện các giao thức RDP và SMB từ internet 
+_ Cách ly những máy đời cũ khỏi mạng nội bộ
+_ Back up mọi thứ trong máy
+_ Clear cookies, lịch sử web, phương thức thanh toán bằng internet trên các phương tiện điện tử
+Cho các bạn mù tin học như mình thì: Hạn chế download hết mức có thể, không vào mạng bằng lap trong thời gian dài :v
+Link patch MS17-10: https://support.microsoft.com/en-us/help/4013389/title
+Link reference cho các bạn muốn tìm hiểu thêm:
+https://blog.fox-it.com/…/massive-outbreak-of-ransomware-v…/
+https://blog.comae.io/wannacry-the-largest-ransom-ware-infe…
+Update 2.25 am:
+_Wcry đã tới Sing ( ảnh 1 ) :v
+_MS17-010 đã thất thủ, video dưới đây là 2 máy cạnh nhau, kết nối qua mạng Lan, và máy có MS bị Wcry kí sinh, khi share sang máy bên kia lập tức nhiễm độc :)))
+Một là có thể máy bên trái dính Wcry trước hoặc Wcry kí sinh trên patch ở nguồn. Chưa biết cụ thể ra sao nhưng Microsoft đã ngưng cung cấp bản patch ( ảnh 2 ):v
+Nguồn: Mystown Area 1.
